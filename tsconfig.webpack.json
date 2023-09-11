@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "outDir": "./lib/",
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "jsxImportSource": "@emotion/react"
+  },
+  "include": [
+    "src/**/*",
+    "typings/**/*"
+  ]
+}
